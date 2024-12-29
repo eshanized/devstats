@@ -1,0 +1,113 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules
+jspm_packages/
+
+# Build output
+dist
+dist-ssr
+.build
+*.local
+
+# Test coverage
+coverage
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.pid
+*.seed
+*.pid.lock
+
+# Environment variables
+.env
+.env.test
+.env.production
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.nfs*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# React Native
+.expo/
+.expo-shared/
+
+# Dependency directories for other tools
+bower_components
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pnp/
+.pnp.js
+
+# Yarn/PNPM
+.yarn/*
+.pnpm-debug.log*
+.yarnrc.yml
+.yarn.lock
+.pnpmfile.cjs
+.pnpmfile.js
+
+# Next.js
+.next/
+out/
+
+# Storybook
+.storybook-out/
+
+# Svelte
+.svelte-kit/
+
+# Tailwind
+# tailwind.config.js
+tailwind.config.cjs
+
+# IDE-specific settings
+*.iml
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/libraries/
+.idea/.name
+.idea/vcs.xml
+.idea/dictionaries
+.idea/httpRequests
+
+# Git-specific
+.git/*
+!.git/HEAD
+!.gitignore
+!.gitattributes
